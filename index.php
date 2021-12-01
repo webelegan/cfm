@@ -336,7 +336,7 @@ function login_page($is_login_attempt, $sidx, $is_logout, $client_hash){
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover, user-scalable=no, shrink-to-fit=no">
     <meta name="robots" content="noindex,nofollow">
     <title>Login</title>
-    <link href="https://raw.githubusercontent.com/webelegan/cfm/src/files.css" rel="stylesheet">
+    <link href="https://raw.githubusercontent.com/webelegan/cfm/main/src/files.css" rel="stylesheet">
     <?php get_include('css/custom.css'); ?>
   </head>
   <body><div id="files-login-container"></div></body>
@@ -1876,7 +1876,7 @@ header('files-msg: [' . header_memory_time() . ']');
     <meta name="robots" content="noindex,nofollow">
     <title><?php echo $init_path ? basename($init_path) : '/'; ?></title>
     <?php get_include('include/head.html'); ?>
-    <link href="https://raw.githubusercontent.com/webelegan/cfm/src/files.css" rel="stylesheet">
+    <link href="https://raw.githubusercontent.com/webelegan/cfm/main/src/files.css" rel="stylesheet">
     <?php get_include('css/custom.css'); ?>
   </head>
 
@@ -1927,17 +1927,17 @@ header('files-msg: [' . header_memory_time() . ']');
     <?php get_include('include/footer.html'); ?>
 
     <!-- Javascript -->
-    <script src="https://raw.githubusercontent.com/webelegan/cfm/src/sweetalert2.js"></script>
-    <script src="https://raw.githubusercontent.com/webelegan/cfm/src/anime.js"></script>
+    <script src="https://raw.githubusercontent.com/webelegan/cfm/main/src/sweetalert2.js"></script>
+    <script src="https://raw.githubusercontent.com/webelegan/cfm/main/src/anime.js"></script>
     <!--<script src="https://cdn.jsdelivr.net/npm/list.js@2.3.1/dist/list.min.js"></script>-->
-    <script src="https://raw.githubusercontent.com/webelegan/cfm/src/list.js"></script>
-    <script src="https://raw.githubusercontent.com/webelegan/cfm/src/yall.js"></script>
-    <script src="https://raw.githubusercontent.com/webelegan/cfm/src/filesize.js"></script>
-    <script src="https://raw.githubusercontent.com/webelegan/cfm/src/screenfull.js"></script>
-    <script src="https://raw.githubusercontent.com/webelegan/cfm/src/dayjs.js"></script>
-    <script src="https://raw.githubusercontent.com/webelegan/cfm/src/localizedFormat.js"></script>
-    <script src="https://raw.githubusercontent.com/webelegan/cfm/src/relativeTime.js"></script>
-    <script src="https://raw.githubusercontent.com/webelegan/cfm/src/bootstrap.js"></script>
+    <script src="https://raw.githubusercontent.com/webelegan/cfm/main/src/list.js"></script>
+    <script src="https://raw.githubusercontent.com/webelegan/cfm/main/src/yall.js"></script>
+    <script src="https://raw.githubusercontent.com/webelegan/cfm/main/src/filesize.js"></script>
+    <script src="https://raw.githubusercontent.com/webelegan/cfm/main/src/screenfull.js"></script>
+    <script src="https://raw.githubusercontent.com/webelegan/cfm/main/src/dayjs.js"></script>
+    <script src="https://raw.githubusercontent.com/webelegan/cfm/main/src/localizedFormat.js"></script>
+    <script src="https://raw.githubusercontent.com/webelegan/cfm/main/src/relativeTime.js"></script>
+    <script src="https://raw.githubusercontent.com/webelegan/cfm/main/src/bootstrap.js"></script>
 <?php if(config::$config['download_dir'] === 'files') { ?>
     <script src="https://cdn.jsdelivr.net/npm/js-file-downloader@1.1.22/dist/js-file-downloader.min.js"></script>
 <?php } ?>
@@ -2046,16 +2046,16 @@ var _c = <?php  echo json_encode($json_config, JSON_PRETTY_PRINT|JSON_UNESCAPED_
 
 var CodeMirror = {};
     </script>
-    <script src="https://raw.githubusercontent.com/webelegan/cfm/src/meta.js"></script>
+    <script src="https://raw.githubusercontent.com/webelegan/cfm/main/src/meta.js"></script>
     <!-- custom -->
     <?php  get_include('js/custom.js'); ?>
     <!-- files -->
-    <script src="https://raw.githubusercontent.com/webelegan/cfm/src/files.js"></script>
+    <script src="https://raw.githubusercontent.com/webelegan/cfm/main/src/files.js"></script>
 
-    <script src="https://raw.githubusercontent.com/webelegan/cfm/src/mousetrap.js"></script>
-    <script src="https://raw.githubusercontent.com/webelegan/cfm/src/headroom.js"></script>
-    <script src="https://raw.githubusercontent.com/webelegan/cfm/src/id.js"></script>
-    <script src="https://raw.githubusercontent.com/webelegan/cfm/src/uppy.js"></script>
+    <script src="https://raw.githubusercontent.com/webelegan/cfm/main/src/mousetrap.js"></script>
+    <script src="https://raw.githubusercontent.com/webelegan/cfm/main/src/headroom.js"></script>
+    <script src="https://raw.githubusercontent.com/webelegan/cfm/main/src/id.js"></script>
+    <script src="https://raw.githubusercontent.com/webelegan/cfm/main/src/uppy.js"></script>
 
   </body>
 </html>
